@@ -492,7 +492,24 @@ Sampai Jumpa!""")
         
 def initData():
     global employees 
-    employees = []
+    employees = [
+        {
+        'name' : 'Lintang Tiara',
+        'phone' : '085454545454',
+        'gender' : 'P',
+        'jabatan' : 'Staff',
+        'divisi' : 'IT Dev',
+        'joinDate' : '21-12-2013'
+    },
+    {
+        'name' : 'Bulan Dewi',
+        'phone' : '0812121212122',
+        'gender' : 'L',
+        'jabatan' : 'Staff',
+        'divisi' : 'HR',
+        'joinDate' : '09-01-2024'
+    }
+    ]
 
 print("Selamat Datang di Aplikasi Data Karyawan!")
 initData()
